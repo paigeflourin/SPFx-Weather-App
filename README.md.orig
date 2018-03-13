@@ -1,4 +1,4 @@
-## SharePoint Framework Weather Application
+## spfx-weather-2
 
 A simple SPFX Weather Application that uses Open Weather API.
 
@@ -11,3 +11,4 @@ npm i -g gulp
 gulp serve
 ```
 
+# SPFx-Weather-App
