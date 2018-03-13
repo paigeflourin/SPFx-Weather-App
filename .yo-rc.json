@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.1.1",
+    "libraryName": "spfx-weather-2",
+    "libraryId": "97d972e6-b417-4082-9cf9-1ee181f615a4",
+    "environment": "spo"
+  }
+}

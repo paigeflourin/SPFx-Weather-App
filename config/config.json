@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/spfxWeatherApplication/SpfxWeatherApplicationWebPart.js",
+      "manifest": "./src/webparts/spfxWeatherApplication/SpfxWeatherApplicationWebPart.manifest.json",
+      "outputPath": "./dist/spfx-weather-application.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "spfxWeatherApplicationStrings": "webparts/spfxWeatherApplication/loc/{locale}.js"
+  }
+}

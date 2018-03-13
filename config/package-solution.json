@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "spfx-weather-2-client-side-solution",
+    "id": "97d972e6-b417-4082-9cf9-1ee181f615a4",
+    "version": "1.0.0.1"
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-weather-2.sppkg"
+  }
+}

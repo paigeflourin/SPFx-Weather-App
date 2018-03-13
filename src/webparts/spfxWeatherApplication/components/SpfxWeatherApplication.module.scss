@@ -1,0 +1,159 @@
+.spFxWeatherWebpart {
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .row {
+    padding: 20px;
+  }
+
+  .listItem {
+    max-width: 715px;
+    margin: 5px auto 5px auto;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: #0078d7;
+    border-color: #0078d7;
+    color: #ffffff;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    font-weight: 400;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+
+    .label {
+      font-weight: 600;
+      font-size: 14px;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+    }
+  }
+
+  .container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+  
+  .navbar {
+    background: rgba(252, 90, 44, 0.89);
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  .homeHeader {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 100;
+  }
+  
+  .formContainer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    color: #555555;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857143;
+    padding: 6px 12px;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    width: 100%;
+  }
+  
+  .button {
+    background-color: #5cb85c;
+    border: 1px solid transparent;
+    border-color: #4cae4c;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    margin: 10px;
+    padding: 6px 12px;
+    white-space: nowrap;
+  }
+  
+  .forecastContainer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    max-width: 1200px;
+  }
+  
+  .dayContainer {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 35px;
+  }
+  
+  .forecastHeader {
+    font-size: 65px;
+    color: #333333;
+    font-weight: 100;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .date {
+    font-size: 30px;
+    color: #333333;
+    font-weight: 100;
+  }
+  
+  .dayIcon {
+    height: 130px;
+  }
+  
+  .detailContainer {
+    font-size: 34px;
+    font-weight: 100;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+
+}
