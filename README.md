@@ -2,6 +2,14 @@
 
 A simple SPFX Weather Application that uses Open Weather API.
 
+### APIKey
+
+Create your own Open Weather API Key and inert it in Firecast.tsx
+
+const APIKEY = 'apikey';
+
+
+
 ### Building the code
 
 ```bash
