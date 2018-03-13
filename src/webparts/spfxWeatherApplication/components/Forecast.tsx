@@ -8,7 +8,7 @@ import appClasses from './SpfxWeatherApplication.module.scss';
 import { getIcon } from '../utils/getIcon';
 
 const baseURL = 'https://api.openweathermap.org/data/2.5/';
-const APIKEY = 'e157ce238d967d8f28da1df242247ae9';
+const APIKEY = '';
 
 
 
